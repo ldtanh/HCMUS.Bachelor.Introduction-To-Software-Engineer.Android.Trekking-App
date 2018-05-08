@@ -2,7 +2,7 @@
 ### About app
 
 ### Author 
-Anh Le
+Anh Le (leduongtuananh97@gmail.com)
 
 Lam Do (dothanhlam.98@gmail.com)
 
