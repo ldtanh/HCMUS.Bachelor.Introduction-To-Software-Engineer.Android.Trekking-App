@@ -1,2 +1,11 @@
-# trekking-app-cntn-2018
-Git for Trekking môn PTTKPM + Mobile Cử nhân tài năm 2015 Anh Le - Lam Do - Huy Huynh
+# Trekking App - Android
+### About app
+
+### Author 
+Anh Le
+
+Lam Do (dothanhlam.98@gmail.com)
+
+Huy Huynh
+
+### How to install and release?
