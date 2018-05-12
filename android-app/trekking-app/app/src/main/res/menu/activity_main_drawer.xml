@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navLogin"
+            android:icon="@drawable/icon_login"
+            android:title="Đăng nhập"
+            />
+        <item
+            android:id="@+id/navHome"
+            android:icon="@drawable/icon_home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/navMapType"
+            android:icon="@drawable/icon_map"
+            android:title="Loại bản đồ" />
+        <item
+            android:id="@+id/navTheme"
+            android:icon="@drawable/icon_theme"
+            android:title="Chủ đề" />
+        <item
+            android:id="@+id/navTraCuu"
+            android:icon="@drawable/icon_tracuu"
+            android:title="Tra cứu" />
+        <item
+            android:id="@+id/navPhanHoi"
+            android:icon="@drawable/icon_phanhoi"
+            android:title="Ý kiến khách hàng" />
+        <item
+            android:id="@+id/navTroGiup"
+            android:icon="@drawable/icon_help"
+            android:title="Trợ giúp" />
+        <item
+            android:id="@+id/navAbout"
+            android:icon="@drawable/icon_info"
+            android:title="Thông tin" />
+        <item
+            android:id="@+id/navLogout"
+            android:icon="@drawable/icon_login"
+            android:title="Đăng xuất"
+            android:visible="false"
+            />
+    </group>
+</menu>

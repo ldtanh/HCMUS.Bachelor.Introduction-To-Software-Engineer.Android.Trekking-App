@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_avata"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:background="@drawable/border_edt2"
+        android:gravity="start|center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="Thông tin ứng dụng:\n
+- Tìm đường đi ngắn nhất từ vị trí đang đứng tới các cửa hàng tiện lợi.
+\n- Tìm đường đi tại hai điểm trên bản đồ.
+\n- Xem thông tin về cửa hàng tiện lợi.
+\n- Hotline hỗ trợ khách hàng 7 ngày trong tuần."
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/icon_license"
+        android:layout_weight="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:gravity="bottom|center"
+        android:layout_weight="0.1"
+        android:text="Bản quyền thuộc về nhóm Startup - Nhóm 3                         Khoa CNT trường ĐH KHTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

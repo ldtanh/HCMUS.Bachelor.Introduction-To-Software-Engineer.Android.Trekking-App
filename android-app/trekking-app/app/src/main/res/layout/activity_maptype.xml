@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minWidth="180dp"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Loại bản đồ"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:background="#3498db"
+        />
+    <RadioButton
+        android:id="@+id/rdbNormal"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Bình thường"
+        android:onClick="typeOnClick"/>
+
+    <RadioButton
+        android:id="@+id/rdbHybrid"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Vệ tinh"
+        android:onClick="typeOnClick"/>
+
+    <RadioButton
+        android:id="@+id/rdbTerrain"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Địa hình"
+        android:onClick="typeOnClick"/>
+
+</LinearLayout>

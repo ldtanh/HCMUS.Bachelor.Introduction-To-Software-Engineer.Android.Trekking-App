@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textColor="#f00"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/iv_view"
+        android:textStyle="bold"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tv_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_diachi"
+        android:text="open"
+        android:layout_toEndOf="@+id/iv_view"
+        android:textAlignment="center"
+        android:textColor="#000"
+         />
+
+    <TextView
+        android:id="@+id/tv_diachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_name"
+        android:layout_toEndOf="@+id/iv_view"
+        android:text="Địa chỉ"
+        android:textColor="#000"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_danhgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_open"
+        android:text="Đánh giá"
+        android:layout_toEndOf="@+id/iv_view"
+        android:textAlignment="center"
+        android:textColor="#000" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="91dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_danhgia"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/route" />
+
+
+</RelativeLayout>

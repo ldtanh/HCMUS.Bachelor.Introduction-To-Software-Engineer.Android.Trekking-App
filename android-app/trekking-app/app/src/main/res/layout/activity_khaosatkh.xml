@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="italic"
+        android:background="#f9e6c4"
+        android:textSize="15sp"
+        android:text="StoreMap mời quý khách đánh giá sản phẩm của chúng tôi, bằng cách trả lời các câu hỏi dưới đây.\n
+                                                        Xin trân trọng cảm ơn!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Tốc độ truyền dữ liệu"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rdoGroup1"
+            android:weightSum="5"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdoBtn5"
+                android:layout_weight="1.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Rất tốt"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/rdoBtn6"
+                android:layout_weight="0.9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Tốt"
+                android:textSize="17sp" />
+            <RadioButton
+                android:id="@+id/rdoBtn7"
+                android:layout_weight="1.8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Trung bình"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/rdoBtn8"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Kém"
+                android:textSize="17sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Tính năng sử dụng "
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rdoGroup2"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rdoBtn1"
+                android:layout_weight="1.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Rất tốt"
+                android:textSize="17sp" />
+            <RadioButton
+                android:id="@+id/rdoBtn2"
+                android:layout_weight="0.9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Tốt"
+                android:textSize="17sp" />
+            <RadioButton
+                android:id="@+id/rdoBtn3"
+                android:layout_weight="1.8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Trung bình"
+                android:textSize="17sp" />
+            <RadioButton
+                android:id="@+id/rdoBtn4"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Kém"
+                android:textSize="17sp" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Độ chính xác khi tìm kiếm địa điểm"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rdoGroup3"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rdoBtn9"
+                android:layout_weight="1.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Rất tốt"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/rdoBtn10"
+                android:layout_weight="0.9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Tốt"
+                android:textSize="17sp" />
+            <RadioButton
+                android:id="@+id/rdoBtn11"
+                android:layout_weight="1.8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Trung bình"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/rdoBtn12"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Kém"
+                android:textSize="17sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Góp ý khác của bạn"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editIpKhaoSat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="60dp"
+            android:background="@drawable/border_edt2"
+            android:gravity="top"
+            android:hint="Nội dung ý kiến góp ý"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtAdrMail"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nhập địa chỉ Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/border_edt2"
+            android:lines="1" />
+
+        <EditText
+            android:id="@+id/edtPassMail"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nhập password"
+            android:inputType="textPassword"
+            android:background="@drawable/border_edt2"
+            android:lines="1" />
+
+        <Button
+            android:id="@+id/btnGuiKhaoSat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/border_button"
+            android:text="Gửi góp ý"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>

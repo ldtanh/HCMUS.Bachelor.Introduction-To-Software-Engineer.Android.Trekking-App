@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="6"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:src="@drawable/icon_team"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border_edt2"
+        android:layout_gravity="bottom"
+        android:gravity="start|top|center"
+        android:layout_weight="2.9"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="Đội ngũ phát triển:
+\n- Nhóm 3 - Khoa CNTT - ĐH Khoa Học Tự Nhiên, ĐHQG Tp.HCM.
+\n- 1512472	Phạm Tĩnh Hồng Tấn Tài
+\n- 1512529	Nguyễn Hữu Thân
+\n- 1512557	Phan Trọng Thuyên
+\n- 1512144	Trần Nhật Hải
+\n- 1512559	Nguyễn Hồ Toàn Thư"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:drawableLeft="@drawable/icon_hotline"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:text=" Hotline: 0989128340"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+
+</LinearLayout>
