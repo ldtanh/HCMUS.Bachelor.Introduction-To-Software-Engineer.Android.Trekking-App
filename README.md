@@ -6,6 +6,6 @@ Anh Le (leduongtuananh97@gmail.com)
 
 Lam Do (dothanhlam.98@gmail.com)
 
-Huy Huynh
+Huy Huynh (huytion156@gmail.com)
 
 ### How to install and release?
